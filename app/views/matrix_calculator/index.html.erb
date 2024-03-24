@@ -1,0 +1,16 @@
+<%= form_tag(multiply_matrix_path, method: "post", class: "matrix-form") do %>
+  <div class="form-group">
+  	<h4>Matrix Multification Calculator</h4>
+    <label for="matrix1">Enter the first matrix:</label><br>
+    <%= text_field_tag(:matrix1, nil, class: "form-control") %>
+  </div>
+  <div class="form-group">
+    <label for="matrix2">Enter the second matrix:</label><br>
+    <%= text_field_tag(:matrix2, nil, class: "form-control") %>
+  </div>
+  <div>
+    <%= submit_tag("Multiply", class: "btn btn-primary") %>
+    <%= link_to "Clear" ,root_path , class:"btn btn-primary"%>
+  </div>
+<% end %>
+

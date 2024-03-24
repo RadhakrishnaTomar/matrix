@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.result {
+  margin-top: 20px;
+}
+
+.result table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.result table td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+.error {
+  margin-top: 20px;
+  background-color: #ffe6e6;
+  padding: 10px;
+}
